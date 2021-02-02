@@ -1,5 +1,5 @@
 <?php
-//需加入模組語系
+xoops_loadLanguage('main', 'tadtools');
 define('_TAD_NEED_TADTOOLS', '需要 tadtools 模組，可至<a href="http://www.tad0616.net/modules/tad_uploader/index.php?of_cat_sn=50" target="_blank">Tad教材網</a>下載。');
 define('_MD_TADCAL_SMNAME2', '新增事件');
 define('_MD_TADCAL_SMNAME3', '下載簡曆');
@@ -67,3 +67,5 @@ define('_MD_TADCAL_ALL_WEEK', '下載周曆');
 define('_MD_TADCAL_SHOW_TYPE', '呈現方式');
 define('_MD_TADCAL_SEPARATE', '分開呈現');
 define('_MD_TADCAL_MERGE', '合併呈現');
+
+define('_MD_TADCAL_MONTH_STR', '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月');

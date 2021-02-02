@@ -1,6 +1,9 @@
 <?php
+xoops_loadLanguage('main', 'tadtools');
 
-define('_TAD_NEED_TADTOOLS', "This module needs TadTools module. You can download TadTools from <a href='http://www.tad0616.net/modules/tad_uploader/index.php?of_cat_sn=50' target='_blank'>Tad's web</a>.");
+if (!defined('_TAD_NEED_TADTOOLS')) {
+    define('_TAD_NEED_TADTOOLS', "This module needs TadTools module. You can download TadTools from <a href='http://www.tad0616.net/modules/tad_uploader/index.php?of_cat_sn=50' target='_blank'>Tad's web</a>.");
+}
 define('_MD_TADCAL_SMNAME2', 'Add Event');
 define('_MD_TADCAL_SMNAME3', 'Download events');
 define('_MD_TADCAL_TITLE', 'Event title');
@@ -66,3 +69,5 @@ define('_MD_TADCAL_ALL_DATE', 'Download all dates');
 define('_MD_TADCAL_SHOW_TYPE', 'Show as');
 define('_MD_TADCAL_SEPARATE', 'Separate events ');
 define('_MD_TADCAL_MERGE', 'Merged view');
+
+define('_MD_TADCAL_MONTH_STR', 'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec');

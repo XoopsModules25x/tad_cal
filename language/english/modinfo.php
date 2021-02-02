@@ -1,6 +1,5 @@
 <?php
-include_once XOOPS_ROOT_PATH . "/modules/tadtools/language/{$xoopsConfig['language']}/modinfo_common.php";
-
+xoops_loadLanguage('modinfo_common', 'tadtools');
 define('_MI_TADCAL_NAME', 'Tad Calendar');
 define('_MI_TADCAL_AUTHOR', 'Tad');
 define('_MI_TADCAL_CREDITS', 'Tad');
@@ -38,7 +37,7 @@ define('_MI_TADCAL_SU', 'Sunday');
 define('_MI_TADCAL_MO', 'Monday');
 
 define('_MI_TADCAL_DIRNAME', basename(dirname(dirname(__DIR__))));
-define('_MI_TADCAL_HELP_HEADER', __DIR__ . '/help/helpheader.html');
+define('_MI_TADCAL_HELP_HEADER', __DIR__ . '/help/helpheader.tpl');
 define('_MI_TADCAL_BACK_2_ADMIN', 'Back to Administration of ');
 
 //help
